@@ -16,6 +16,7 @@ public interface StockClient {
    // List<StockDto> getStocks();
    // @RequestMapping(method = RequestMethod.GET, value = "stock/getStock/{id}")
    // StockDto getStockById(@PathVariable Long id);
+    // firset coomm//;
 
     @GetMapping ("stock/getstock/{id}")
     StockDto getStockById(@PathVariable Long id);
